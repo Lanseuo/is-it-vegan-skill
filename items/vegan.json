@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Kokosmilch",
+        "number": "singular"
+    },
+    {
+        "name": "Honigmelonen",
+        "number": "plural",
+        "synonyms": [
+            "Honigmelone"
+        ]
+    },
+    {
+        "name": "Kakaobutter",
+        "number": "singular"
+    },
+    {
+        "name": "Eierschwammerl",
+        "number": "singular"
+    },
+    {
+        "name": "Walnüsse",
+        "number": "plural",
+        "synonyms": [
+            "Walnuss"
+        ]
+    },
+    {
+        "name": "Blutorangen",
+        "number": "plural",
+        "synonyms": [
+            "Blutorange"
+        ]
+    },
+    {
+        "name": "Butterblumen",
+        "number": "plural",
+        "synonyms": [
+            "Butterblume"
+        ]
+    },
+    {
+        "name": "Butterrüben",
+        "number": "plural",
+        "synonyms": [
+            "Butterrübe"
+        ]
+    },
+    {
+        "name": "Eiertomaten",
+        "number": "plural",
+        "synonyms": [
+            "Eiertomate"
+        ]
+    },
+    {
+        "name": "Fleischtomaten",
+        "number": "plural",
+        "synonyms": [
+            "Fleischtomate"
+        ]
+    },
+    {
+        "name": "Fruchtfleisch",
+        "number": "singular"
+    },
+    {
+        "name": "Bananen",
+        "number": "plural",
+        "synonyms": [
+            "Banane"
+        ]
+    },
+    {
+        "name": "Äpfel",
+        "number": "plural",
+        "synonyms": [
+            "Apfel"
+        ]
+    },
+    {
+        "name": "Himbeeren",
+        "number": "plural",
+        "synonyms": [
+            "Himbeere"
+        ]
+    },
+    {
+        "name": "Datteln",
+        "number": "plural",
+        "synonyms": [
+            "Dattel"
+        ]
+    },
+    {
+        "name": "Haferflocken",
+        "number": "plural"
+    },
+    {
+        "name": "Bananen",
+        "number": "plural"
+    },
+    {
+        "name": "Leinsamen",
+        "number": "plural"
+    },
+    {
+        "name": "Orangen",
+        "number": "plural",
+        "synonyms": [
+            "Orange"
+        ]
+    },
+    {
+        "name": "Sojamilch",
+        "number": "singular",
+        "synonyms": [
+            "Sojadrink"
+        ]
+    },
+    {
+        "name": "Hafermilch",
+        "number": "singular",
+        "synonyms": [
+            "Haferdrink"
+        ]
+    },
+    {
+        "name": "Mandelmilch",
+        "number": "singular",
+        "synonyms": [
+            "Mandeldrink"
+        ]
+    },
+    {
+        "name": "Reismilch",
+        "number": "singular",
+        "synonyms": [
+            "Mandeldrink"
+        ]
+    }
+]

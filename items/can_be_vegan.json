@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Orangensaft",
+        "number": "singular",
+        "synonyms": [
+            "Orangensäfte"
+        ]
+    },
+    {
+        "name": "Marmelade",
+        "number": "singular",
+        "synonyms": [
+            "Marmeladen"
+        ]
+    },
+    {
+        "name": "Brezeln",
+        "number": "plural",
+        "synonyms": [
+            "Brezel"
+        ]
+    }
+]

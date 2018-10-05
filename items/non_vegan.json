@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Milch",
+        "number": "singular",
+        "synonyms": [
+            "Kuhmilch"
+        ]
+    },
+    {
+        "name": "Fleisch",
+        "number": "singular"
+    },
+    {
+        "name": "Eier",
+        "number": "plural",
+        "synonyms": [
+            "Ei",
+            "Hühnerei"
+        ]
+    },
+    {
+        "name": "Honig",
+        "number": "singular"
+    }
+]

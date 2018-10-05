@@ -1,0 +1,28 @@
+service: is-it-vegan-skill
+
+provider:
+  name: aws
+  runtime: python3.6
+  versionFunctions: false
+
+functions:
+  skill:
+    handler: skill.handler
+
+events:
+  - alexaSkill: amzn1.ask.skill.9be15e40-de78-4342-954d-577a642aa0e7
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: false
+
+package:
+  individually: true
+  exclude:
+    - ./**
+  include:
+    - skill/**
+    - items/**
