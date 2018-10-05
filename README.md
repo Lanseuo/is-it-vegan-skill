@@ -1,6 +1,6 @@
 # Is It vegan?
 
-A german Alexa Skill that tells you, whether a product or ingredient is vegan.
+A German Alexa Skill that tells you, whether a product or ingredient is vegan.
 
 
 [![](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Lanseuo/is-it-vegan-skill/blob/master/LICENSE)

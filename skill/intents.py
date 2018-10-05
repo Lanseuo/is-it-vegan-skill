@@ -1,3 +1,4 @@
+from . import db
 from .analyze import check
 from .helpers import answer, question
 
@@ -37,7 +38,11 @@ def lookup(request, session):
             speech_text += f" {result['explanation']}"
 
     else:
-        speech_text = f"Leider weiß ich nicht, ob {item_name} vegan ist."
+        speech_text = (
+            f"Leider weiß ich nicht, ob {item_name} vegan ist. "
+            f"Jedoch habe ich {item_name} als Vorschlag abgespeichert. "
+            f"Bald werde ich Dir darüber Auskunft geben können, ob {item_name} vegan ist.")
+        db.add_recommendation(item_name, session["user"]["userId"])
 
     speech_text += " Möchtest Du noch etwas wissen?"
 
@@ -54,4 +59,4 @@ def yes(request, session):
 
 def help(request, session):
     print("Help")
-    return question("Du kannst mich zum beispiel fragen: Sind Bananen vegan?")
+    return question("Du kannst mich zum Beispiel fragen: Sind Bananen vegan?")
