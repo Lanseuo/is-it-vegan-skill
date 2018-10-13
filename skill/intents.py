@@ -1,6 +1,6 @@
 from . import db
 from .analyze import check
-from .helpers import answer, question
+from .helpers import answer, question, dialog_delegate
 
 
 def launch(request, session):
@@ -8,6 +8,11 @@ def launch(request, session):
 
 
 def lookup(request, session):
+    if request["dialogState"] == "STARTED":
+        return dialog_delegate()
+    elif request["dialogState"] == "IN_PROGRESS":
+        return dialog_delegate()
+
     item_name = request["intent"]["slots"]["Item"]["value"]
     result = check(item_name)
 
