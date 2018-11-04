@@ -4,6 +4,10 @@
         "number": "singular"
     },
     {
+        "name": "Avocado",
+        "number": "singular"
+    },
+    {
         "name": "Honigmelonen",
         "number": "plural",
         "synonyms": [
@@ -136,7 +140,81 @@
         "name": "Reismilch",
         "number": "singular",
         "synonyms": [
-            "Mandeldrink"
+            "Reisdrink"
+        ]
+    },
+    {
+        "name": "Salat",
+        "number": "singular",
+        "synonyms": [
+            "Salate"
+        ]
+    },
+    {
+        "name": "Pilze",
+        "number": "plural",
+        "synonyms": [
+            "Pilzen"
+        ]
+    },
+    {
+        "name": "Pektin",
+        "number": "singular"
+    },
+    {
+        "name": "Pfeffer",
+        "number": "singular",
+        "synonyms": [
+            "grüner Pfeffer"
+        ]
+    },
+    {
+        "name": "Agar Agar",
+        "number": "singular",
+        "synonyms": [
+            "Agar-Agar",
+            "Agar",
+            "Agartang",
+            "Chinesische Gelatine",
+            "Japanische Gelatine"
+        ]
+    },
+    {
+        "name": "Champignons",
+        "number": "plural"
+    },
+    {
+        "name": "Erdnussbutter",
+        "number": "singular",
+        "synonyms": [
+            "Peanutbutter",
+            "Peanut Butter"
+        ]
+    },
+    {
+        "name": "Kakao",
+        "number": "singular",
+        "explanation": "Beachte aber, dass kakaohaltiges Getränkepulver meist nicht vegan ist."
+    },
+    {
+        "name": "Erdbeeren",
+        "number": "plural",
+        "synonyms": [
+            "Erdbeere"
+        ]
+    },
+    {
+        "name": "Käferbohnen",
+        "number": "plural",
+        "synonyms": [
+            "Käferbohne"
+        ]
+    },
+    {
+        "name": "Salzstangen",
+        "number": "plural",
+        "synonyms": [
+            "Salzstange"
         ]
     }
 ]

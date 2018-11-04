@@ -21,5 +21,47 @@
     {
         "name": "Honig",
         "number": "singular"
+    },
+    {
+        "name": "Gelatine",
+        "number": "singular"
+    },
+    {
+        "name": "Rührei",
+        "number": "singular"
+    },
+    {
+        "name": "Butter",
+        "number": "singular"
+    },
+    {
+        "name": "Bratwurst",
+        "number": "singular",
+        "synonyms": [
+            "Bratwürste"
+        ]
+    },
+    {
+        "name": "Schweinemett",
+        "number": "singular",
+        "synonyms": [
+            "Mett"
+        ]
+    },
+    {
+        "name": "Schokolade",
+        "number": "singular",
+        "synonyms": [
+            "Schokoladen"
+        ],
+        "explanation": "Jedoch gibt es in vielen Supermärkten mittlerweile auch vegane Schokolade."
+    },
+    {
+        "name": "Butterkekse von Leibniz",
+        "number": "plural",
+        "synonyms": [
+            "Leibniz Keks",
+            "Leibniz Kekse"
+        ]
     }
 ]

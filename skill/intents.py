@@ -25,19 +25,19 @@ def lookup(request, session):
 
         if result["status"] == "non_vegan":
             if result["number"] == "singular":
-                speech_text = f"Nein, leider ist {result['name']} nicht vegan."
+                speech_text = f"Nein, ist {result['name']} nicht vegan."
             else:
-                speech_text = f"Nein, leider sind {result['name']} nicht vegan."
+                speech_text = f"Nein, sind {result['name']} nicht vegan."
 
         if result["status"] == "can_be_vegan":
             if result["number"] == "singular":
                 speech_text = (
                     f"Mhhh, bei {result['name']} bin ich mir nicht sicher. Manchmal ist es vegan, "
-                    "manchmal leider aber auch nicht.")
+                    "manchmal aber auch nicht.")
             else:
                 speech_text = (
                     f"Mhhh, bei {result['name']} bin ich mir nicht sicher. Manchmal sind sie vegan, "
-                    "manchmal leider aber auch nicht.")
+                    "manchmal aber auch nicht.")
 
         if result.get("explanation"):
             speech_text += f" {result['explanation']}"

@@ -19,5 +19,19 @@
         "synonyms": [
             "Brezel"
         ]
+    },
+    {
+        "name": "Spaghetti",
+        "number": "plural",
+        "explanation": "Achte beim Kaufen darauf, dass sie keine Eier enthalten."
+    },
+    {
+        "name": "Nudeln",
+        "number": "plural",
+        "explanation": "Achte beim Kaufen darauf, dass sie keine Eier enthalten."
+    },
+    {
+        "name": "Brot",
+        "number": "singular"
     }
 ]
