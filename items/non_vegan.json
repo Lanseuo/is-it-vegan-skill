@@ -7,15 +7,34 @@
         ]
     },
     {
-        "name": "Fleisch",
+        "name": "Ziegenmilch",
         "number": "singular"
+    },
+    {
+        "name": "Fleisch",
+        "number": "singular",
+        "synonyms": [
+            "Schweinebraten",
+            "Gänsebrüsten",
+            "Gänsebrüste"
+        ]
+    },
+    {
+        "name": "Rindfleisch",
+        "number": "singular",
+        "synonyms": [
+            "Rindsteak",
+            "Rindersteak"
+        ]
     },
     {
         "name": "Eier",
         "number": "plural",
         "synonyms": [
             "Ei",
-            "Hühnerei"
+            "Hühnerei",
+            "Entenei",
+            "Enteneier"
         ]
     },
     {
@@ -42,6 +61,21 @@
         ]
     },
     {
+        "name": "Mettwurst",
+        "number": "singular",
+        "synonyms": [
+            "Mettwürste"
+        ]
+    },
+    {
+        "name": "Wurst",
+        "number": "singular",
+        "synonyms": [
+            "Würste"
+        ],
+        "explanation": "Jedoch gibt es in vielen Supermärkten auch vegane Wurst."
+    },
+    {
         "name": "Schweinemett",
         "number": "singular",
         "synonyms": [
@@ -63,5 +97,87 @@
             "Leibniz Keks",
             "Leibniz Kekse"
         ]
+    },
+    {
+        "name": "Sahnejoghurt",
+        "number": "singular"
+    },
+    {
+        "name": "Hühner",
+        "number": "plural",
+        "synonyms": [
+            "Huhn",
+            "Hähnchen",
+            "Hühnchen"
+        ]
+    },
+    {
+        "name": "Käse",
+        "number": "singular",
+        "synonyms": [
+            "Gouda",
+            "Butterkäse"
+        ],
+        "explanation": "Jedoch gibt es in vielen Supermärkten auch veganen Käse."
+    },
+    {
+        "name": "Nutella",
+        "number": "singular",
+        "explanation": "In Nutella ist Magermilchpulver enthalten."
+    },
+    {
+        "name": "Gulasch",
+        "number": "singular"
+    },
+    {
+        "name": "Salami",
+        "number": "singular",
+        "explanation": "Jedoch gibt es in vielen Supermärkten auch vegane Salami."
+    },
+    {
+        "name": "Sahne",
+        "number": "singular"
+    },
+    {
+        "name": "Milchzucker",
+        "number": "singular"
+    },
+    {
+        "name": "Leber",
+        "number": "singular"
+    },
+    {
+        "name": "Fischsauce",
+        "number": "singular",
+        "synonyms": [
+            "Fischsaucen"
+        ]
+    },
+    {
+        "name": "Buttermilch",
+        "number": "singular"
+    },
+    {
+        "name": "Milka Schokolade",
+        "number": "singular",
+        "synonyms": [
+            "Milka Schokoladen"
+        ]
+    },
+    {
+        "name": "Lasagne",
+        "number": "singular"
+    },
+    {
+        "name": "Kartoffelknödel",
+        "number": "plural",
+        "explanation": "Sie enthalten oft Ei."
+    },
+    {
+        "name": "Butterkekse",
+        "synonyms": [
+            "Butterkeks"
+        ],
+        "number": "plural"
     }
 ]

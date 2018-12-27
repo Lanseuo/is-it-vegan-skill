@@ -216,5 +216,89 @@
         "synonyms": [
             "Salzstange"
         ]
+    },
+    {
+        "name": "Sojasoße",
+        "number": "singular",
+        "synonyms": [
+            "Sojasoßen"
+        ]
+    },
+    {
+        "name": "Glasnudeln",
+        "number": "plural",
+        "synonyms": [
+            "Glasnudel"
+        ]
+    },
+    {
+        "name": "Rapsöl",
+        "number": "singular"
+    },
+    {
+        "name": "Sojamehl",
+        "number": "singular"
+    },
+    {
+        "name": "Kartoffeln",
+        "number": "plural",
+        "synonyms": [
+            "Kartoffel"
+        ]
+    },
+    {
+        "name": "Pringles",
+        "number": "plural",
+        "explanation": "Dies bezieht sich auf die Pringles Original, Texas Barbeque, Paprika und Curry. In den Versionen Hot & Spicy, Sour Cream & Onion, CheezUms und Cheese and Onion sind Molkereiprodukte enthalten. In der Version Cheese and Onion ist Fisch enthalten. Hühner befinden sich in der Version Hot and Spicy."
+    },
+    {
+        "name": "Kokosöl",
+        "number": "singular"
+    },
+    {
+        "name": "Zucker",
+        "number": "singular"
+    },
+    {
+        "name": "Hafermehl",
+        "number": "singular"
+    },
+    {
+        "name": "Kokosmus",
+        "number": "singular"
+    },
+    {
+        "name": "Granatapfel",
+        "number": "singular",
+        "synonyms": [
+            "Granatäpfel"
+        ]
+    },
+    {
+        "name": "Canolaöl",
+        "number": "singular"
+    },
+    {
+        "name": "Melonen",
+        "number": "plural",
+        "synonyms": [
+            "Melone"
+        ]
+    },
+    {
+        "name": "Hirse",
+        "number": "singular"
+    },
+    {
+        "name": "Pommes Frites",
+        "number": "singular",
+        "synonyms": [
+            "Pommes"
+        ]
+    },
+    {
+        "name": "Hefe",
+        "number": "singular",
+        "explanation": "Hefe gehört zu den Mikroorganismen, genauer gesagt biologisch gesehen zu den einzelligen Pilzen, die genau wie andere Pilze keine Schmerzen fühlen können."
     }
 ]

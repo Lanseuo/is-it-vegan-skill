@@ -7,6 +7,13 @@
         ]
     },
     {
+        "name": "Apfelsaft",
+        "number": "singular",
+        "synonyms": [
+            "Apfelsäfte"
+        ]
+    },
+    {
         "name": "Marmelade",
         "number": "singular",
         "synonyms": [
@@ -33,5 +40,43 @@
     {
         "name": "Brot",
         "number": "singular"
+    },
+    {
+        "name": "Wein",
+        "number": "singular",
+        "explanation": "Wein wird öfters mit Protein aus der Fischblase, Gelatine oder aus Magermilch gewonnenem Kasein geklärt."
+    },
+    {
+        "name": "Sushi",
+        "number": "singular",
+        "explanation": "Aber in fast jedem Sushi-Restaurant gibt es vegane Maki-Rollen mit Gurke oder Avocado, manchmal auch welche mit eingelegtem Rettich, Kürbis oder Tofu."
+    },
+    {
+        "name": "Margarine",
+        "number": "singular",
+        "explanation": "Oft enthält Margarine Fischöl wegen der Omega-3-Fettsäure."
+    },
+    {
+        "name": "Chips",
+        "number": "plural",
+        "synonyms": [
+            "Kartoffelchips"
+        ]
+    },
+    {
+        "name": "Spekulatius",
+        "number": "singular"
+    },
+    {
+        "name": "Gummibärchen",
+        "number": "plural",
+        "synonyms": [
+            "Gummibär"
+        ]
+    },
+    {
+        "name": "Eis",
+        "number": "singular",
+        "explanation": "Fruchteis ist in den meisten Fällen vegan. Bei anderen Sorten ist meist Milch enthalten. Jedoch gibt es in vielen Supermärkten auch veganes Eis."
     }
 ]
