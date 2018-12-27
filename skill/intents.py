@@ -19,24 +19,24 @@ def lookup(request, session):
     if result:
         if result["status"] == "vegan":
             if result["number"] == "singular":
-                speech_text = f"Ja, {result['name']} ist vegan."
+                speech_text = f"Ja, {result['name']} ist eigentlich immer vegan."
             else:
-                speech_text = f"Ja, {result['name']} sind vegan."
+                speech_text = f"Ja, {result['name']} sind eigentlich immer vegan."
 
         if result["status"] == "non_vegan":
             if result["number"] == "singular":
-                speech_text = f"Nein, ist {result['name']} nicht vegan."
+                speech_text = f"Nein, {result['name']} ist nicht vegan."
             else:
-                speech_text = f"Nein, sind {result['name']} nicht vegan."
+                speech_text = f"Nein, {result['name']} sind nicht vegan."
 
         if result["status"] == "can_be_vegan":
             if result["number"] == "singular":
                 speech_text = (
-                    f"Mhhh, bei {result['name']} bin ich mir nicht sicher. Manchmal ist es vegan, "
+                    f"Bei {result['name']} bin ich mir nicht sicher. Manchmal ist es vegan, "
                     "manchmal aber auch nicht.")
             else:
                 speech_text = (
-                    f"Mhhh, bei {result['name']} bin ich mir nicht sicher. Manchmal sind sie vegan, "
+                    f"Bei {result['name']} bin ich mir nicht sicher. Manchmal sind sie vegan, "
                     "manchmal aber auch nicht.")
 
         if result.get("explanation"):
@@ -63,5 +63,4 @@ def yes(request, session):
 
 
 def help(request, session):
-    print("Help")
     return question("Du kannst mich zum Beispiel fragen: Sind Bananen vegan?")

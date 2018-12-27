@@ -4,6 +4,7 @@ provider:
   name: aws
   runtime: python3.6
   versionFunctions: false
+  stage: ${opt:stage, 'dev'}
 
 functions:
   skill:
